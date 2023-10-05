@@ -1,0 +1,113 @@
+body {
+    background-image: url('wallpaper.jpg');
+}
+#main {
+    background: linear-gradient(45deg, yellow, red);
+    padding: 65px;
+    border: 2px solid red;
+    width: 350px;
+    margin: 80px auto;
+    box-shadow: 0 0 10px red;
+    border-radius: 15px;
+    position: relative;
+}
+.abc {
+    margin: 30px;
+    border-bottom: 2px solid white;
+}
+
+.abc > select {
+    color: white;
+    width: 300px;
+    padding:10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: transparent;
+
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+}
+
+.abc > textarea {
+    width: 295px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.btn {
+    margin: auto;
+    width: 190px;;
+    margin-top: 20px;
+    background: linear-gradient(45deg yellow, green);
+    box-shadow: 0 0 10px red;
+}
+
+
+
+.abc > select > option {
+    background-color: black;
+    color: cyan;
+    font-weight: bold;
+}
+
+.abc > select {
+    font-weight: bold;
+    margin-left: -13px;
+    width: 315px;
+}
+
+.btn{
+    background: linear-gradient(45deg, yellow, green);
+    width: 280px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn > button {
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+i {
+    border: 5px solid red;
+    border-radius: 50%;
+    font-size: 70px;
+    background-color: white;
+    color: yellow;
+    padding: 15px;
+    box-shadow: 0 0 10px red;
+    position: absolute;
+    left: 190px;
+    top: -52px;
+}
+
+#main > .mno > span {
+    color: yellow;
+}
+
+#main > .mno > span > i {
+    font-size: 80px;
+    background-color: white;
+    
+}
